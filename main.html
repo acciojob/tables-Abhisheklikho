@@ -9,8 +9,11 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="m-3">
+	<caption>List of all Transcations</caption>
 	<table class="table table-hover table-responsive">
-		<thead class="table table-dark table-striped-columns">
+		
+		<thead class="table table-dark table-striped-columns" id="total">
 		  <tr>
 			<th scope="col">#</th>
 			<th scope="col">From</th>
@@ -37,18 +40,21 @@
 			<td>John</td>
 			<td>2000</td>
 		  </tr>
-		  <tr id="total" class="table-light table-group-divider ">
+		</tbody>
+		  <tfoot  class="table-light table-group-divider ">
+		  <tr  >
 			<th colspan="1"></th>
 			<th scope="row" colspan="2"  class="font-monospace text-end fw-bold">Total</th>
 			<th colspan="1" class="font-monospace  fw-bold">4000</th>
 			
 		  </tr>
+		</tfoot>
 
 		  
-		</tbody>
+		
 		<!-- class="table-active table-group-divider table-striped" -->
 	  </table>
-
+	</div>
 	  
 
     <script type="text/javascript" src="./script.js"></script>
